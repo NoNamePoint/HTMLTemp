@@ -1,0 +1,237 @@
+/* Здесь будут храниться стили нашего сайта */
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+
+}
+img {
+	width: 100%;
+}
+
+header {
+	padding-top: 59px;
+	padding-bottom: 22px;
+	background-color: #1157db;
+	color: #fff;
+}
+.header-pretitle{
+	font-size: 18px;
+	margin-top: 90px;
+}
+.header-title {
+	margin-top: 21px;
+	font-size: 30px;
+	font-weight: 700px;
+	line-height: 36.81px;
+}
+.header-subtitle {
+	margin-top: 20px;
+	font-size: 18px;
+}
+.header-button  {
+	
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 50px;
+	border: none;
+	background-color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 33px;
+	padding-top: 17px; 
+	padding-bottom: 19px; 
+	padding-left: 55px; 
+	padding-right: 57px;
+	cursor: pointer;
+}
+small {
+	font-size: 13px;
+	margin-top: 9px;
+	display: block;
+	text-align:center;
+}
+
+.header-button-block{
+	max-width: 205px;
+}
+
+.portfolio {
+	 background-color: #dddddd;
+	padding-top: 44px;
+	padding-bottom: 60px;
+}
+.area {
+	background-color: #fff;
+	padding-top: 29px;
+	padding-bottom: 44px;
+
+	
+}
+.main-title{
+	text-transform: uppercase;
+	font-size:18px;
+	color: #072b6f;
+	margin-bottom: 10px; 
+}
+.main-subtitle{
+	font-size: 14px;
+	color: #7bb9ff;
+	margin-top: 10px;
+}
+.main-title, .main-subtitle{
+	text-align:center;
+
+}
+.portfolio-col-1{
+	padding-left: 50px;
+	
+}
+
+.portfolio-col-2{
+	padding-right: 50px;
+}
+.area h3 {
+color: #072b6f;
+font-family: Roboto;
+font-size: 17px;
+font-weight: 700;
+text-transform: uppercase;
+
+}
+.area p {
+color: #8f8f8f;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+
+}
+footer {
+	background-color: #1157db;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+.footer-author{
+font-size: 24px;
+margin-bottom: 7px;
+}
+.footer-text{
+	margin-top: 0px;
+}
+.social-blog {
+	text-align: center;
+}
+.social-blog a {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.social-blog p {
+color: #deedfe;
+font-family: Roboto;
+font-size: 18px; 
+}
+
+.footer-cta{
+	text-align: center;
+}
+.footer-message{
+color: #deedfe;
+font-family: Roboto;
+font-size: 18px;
+margin-bottom: 13px; 
+}
+
+.footer-btn{
+display: inline-block;	
+border-radius: 50px;
+border: 1px solid #ffffff;
+background-color: transparent;
+color: #fff;
+font-size: 18px;
+padding: 15px 40px;
+cursor: pointer;	
+}
+
+@media( max-width: 1200px){
+
+	.header-pretitle{
+	
+	margin-top: 50px;
+	}	
+}
+
+@media( max-width: 992px){
+	.header-pretitle, .header-title, .header-subtitle{
+		text-align: center;
+	}
+	.header-button-block{
+		position: relative;
+		margin: 0 auto;
+	}
+	.header-img{
+	
+	display: none;
+	}	
+	.footer-author{
+		font-size: 18px;
+	}
+	.fooer-text{
+		font-size: 13px;
+	} 
+	.social-blog img{
+		width: 22px;
+
+	}
+	.social-blog p{
+		font-size: 15px;
+	}	
+	.footer-btn{
+		padding: 5px 25px;
+		font-size: 10px;
+	}	
+	.footer-message{
+		font-size: 15px;
+	}
+}	
+	@media (max-width: 768px) {
+		.portfolio-col-1{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 40px;	
+	}
+	.portfolio-col-2{
+	padding-left: 20px;
+	padding-right: 20px;
+
+	}
+	.footer-author, .footer-text{
+		text-align: center;
+	
+	}
+	.footer-cta{
+		position: relative;
+		margin: 0 auto;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
